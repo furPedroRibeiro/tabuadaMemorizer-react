@@ -24,7 +24,7 @@ export function SeeMultiplicationTableButton(){
     return(
         <Dialog.Root>
             <Dialog.Trigger className='w-11/12 md:w-auto'>
-                <button onClick={handleMultiplicationTable} className="bg-stone-950 text-amber-400 text-base w-full md:w-auto px-4 py-3 rounded-md hover:bg-stone-900 transition-colors duration-300">Ver tabuada</button>
+                <button onClick={handleMultiplicationTable} className="bg-stone-950 text-amber-400 text-base w-full md:w-auto px-4 py-3 rounded-md hover:bg-stone-900 transition-colors duration-300 outline-none">Ver tabuada</button>
             </Dialog.Trigger>
             <Dialog.Portal>
                 <Dialog.Overlay className='bg-stone-950/20 inset-0 fixed'/>

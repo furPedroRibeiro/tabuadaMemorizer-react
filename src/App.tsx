@@ -1,6 +1,7 @@
 import { Calculator } from 'lucide-react'
 import { AnswerQuestionButton } from './components/answerQuestion'
 import { SeeMultiplicationTableButton } from './components/seeMultiplicationTable'
+import { Toaster } from 'sonner'
 
 export function App() {
   return (
@@ -22,6 +23,11 @@ export function App() {
         <SeeMultiplicationTableButton />
         <AnswerQuestionButton />
       </div>
+      <Toaster 
+        richColors
+        theme='light'
+        duration={6000}
+      />
     </main>
   )
 }
